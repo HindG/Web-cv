@@ -4,12 +4,12 @@ const league_spartan = League_Spartan({
     subsets: ['latin'],
 })
 
-const nameStyle = { fontSize: "54px", color: "#ffffff", marginBottom: "40px", marginTop: "15px", fontWeight: "800" }
+const nameStyle = { fontSize: "62px", color: "#ffffff", marginBottom: "40px", marginTop: "15px", fontWeight: "800" }
 
-export default function Title({ title, size, color }: { title?: string, size?: number, color?: string }) {
+export default function Title({ title, color }: { title?: string, color?: string }) {
     return (
         title ?
-            <h2 className={league_spartan.className} style={{ fontSize: `${size}px`, color }}>
+            <h2 className={league_spartan.className} style={{ fontSize: "40px", color, fontWeight: "700" }}>
                 {title}
             </h2>
             :

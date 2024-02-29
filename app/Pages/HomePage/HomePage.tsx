@@ -1,10 +1,10 @@
 import Title from '../../Components/Title'
 import portrait from './portrait.png'
 
-const containerStyle = { backgroundColor: "#23295A", height: "826px", position: "relative" } as React.CSSProperties;
-const nameContainerStyle = { width: "280px", textAlign: "center", position: "absolute", top: "calc(50% - 110px)", left: "calc(25% - 140px)" } as React.CSSProperties;
-const textStyle = { fontWeight: "600", color: "#ffffff", fontSize: "20px" }
-const imgStyle = { position: "absolute", top: "calc(50% - 200px)", right: "calc(25% - 200px)", width: "400px" } as React.CSSProperties;
+const containerStyle = { backgroundColor: "#23295A", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
+const nameContainerStyle = { width: "280px", textAlign: "center", margin: "auto" } as React.CSSProperties
+const textStyle = { fontWeight: "600", color: "#ffffff", fontSize: "22px" }
+const imgStyle = { width: "400px", height: "400px", margin: "auto" }
 
 export default function HomePage() {
     return (
