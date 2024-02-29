@@ -1,4 +1,4 @@
-import Title from '../../Components/Title'
+import Title from '@/app/Components/Title'
 import portrait from './portrait.png'
 
 const containerStyle = { backgroundColor: "#23295A", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
