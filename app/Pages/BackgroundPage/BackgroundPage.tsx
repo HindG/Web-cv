@@ -1,5 +1,5 @@
-import QuickFact from '@/app/Components/QuickFact'
-import Title from '@/app/Components/Title'
+import QuickFact from '@/app/Components/QuicksFact.tsx/QuickFact'
+import Title from '@/app/Components/Title/Title'
 
 const containerStyle = { backgroundColor: "#422D73", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
 const leftSideStyle = { width: "50%" }

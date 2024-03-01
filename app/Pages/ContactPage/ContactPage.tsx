@@ -1,4 +1,4 @@
-import Title from "@/app/Components/Title"
+import Title from "@/app/Components/Title/Title"
 
 const containerStyle = { backgroundColor: "#EAF7FF", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
 
