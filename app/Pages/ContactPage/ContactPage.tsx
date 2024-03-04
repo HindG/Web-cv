@@ -1,10 +1,9 @@
 import Title from "@/app/Components/Title/Title"
-
-const containerStyle = { backgroundColor: "#EAF7FF", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
+import './ContactPage.css'
 
 export default function ContactPage() {
     return (
-        <section style={containerStyle}>
+        <section className="containerStyle">
             <Title title="Looking forward to working with everyone!" color="#424242" />
         </section>
     )

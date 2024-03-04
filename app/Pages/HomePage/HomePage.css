@@ -1,0 +1,25 @@
+.containerStyle {
+    background-color: #23295A;
+    height: 826px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.nameContainerStyle {
+    width: 280px;
+    text-align: center;
+    margin: auto;
+}
+
+.textStyle {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.imgStyle {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}

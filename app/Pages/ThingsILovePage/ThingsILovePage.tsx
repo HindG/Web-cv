@@ -1,10 +1,9 @@
 import Title from "@/app/Components/Title/Title"
-
-const containerStyle = { backgroundColor: "#38B6FF", height: "826px", display: "flex", alignItems: "center", justifyContent: "center" }
+import './ThingsILovePage.css'
 
 export default function ThingsILovePage() {
     return (
-        <section style={containerStyle}>
+        <section className="containerStyle">
             <Title title="Things I Love" color="#ffffff" />
         </section>
     )

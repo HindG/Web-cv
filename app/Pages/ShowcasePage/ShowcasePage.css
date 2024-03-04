@@ -1,0 +1,12 @@
+.containerStyle {
+    background-color: #5271FF;
+    height: 826px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carouselStyle {
+    width: 75%;
+}

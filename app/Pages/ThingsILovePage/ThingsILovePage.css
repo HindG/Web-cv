@@ -1,0 +1,7 @@
+.containerStyle {
+    background-color: #38B6FF;
+    height: 826px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

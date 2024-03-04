@@ -1,0 +1,21 @@
+.containerStyle {
+    background-color: #422D73;
+    height: 826px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSideStyle {
+    width: 50%;
+}
+
+.titleContainerStyle {
+    width: 280px;
+    margin: auto;
+}
+
+.factsContainer {
+    margin: auto;
+    width: 50%;
+}

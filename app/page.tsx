@@ -1,5 +1,5 @@
 import { Open_Sans } from 'next/font/google'
-import './reset-css.css'
+import './Styles/reset-css.css'
 import HomePage from './Pages/HomePage/HomePage'
 import BackgroundPage from "./Pages/BackgroundPage/BackgroundPage"
 import ShowcasePage from './Pages/ShowcasePage/ShowcasePage'
