@@ -3,7 +3,7 @@ import './ContactPage.css'
 
 export default function ContactPage() {
     return (
-        <section className="containerStyle">
+        <section className="contact__container">
             <Title title="Looking forward to working with everyone!" color="#424242" />
         </section>
     )

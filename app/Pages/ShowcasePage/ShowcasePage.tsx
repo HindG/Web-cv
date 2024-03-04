@@ -4,9 +4,9 @@ import './ShowcasePage.css'
 
 export default function ShowcasePage() {
     return (
-        <section className="containerStyle">
+        <section className="showcase__container">
             <Title title="Here's a showcase of my work!" color="#ffffff" />
-            <div className="carouselStyle">
+            <div className="showcase__carouselcontainer">
                 <WorkCarousel />
             </div>
         </section>

@@ -1,4 +1,4 @@
-.containerStyle {
+.quickfact__container {
     background-color: #ffffff;
     border-radius: 15px;
     padding: 30px;
@@ -6,7 +6,7 @@
     width: 80%;
 }
 
-.titleStyle {
+.quickfact__title {
     font-size: 19px;
     color: #23295A;
     font-weight: 600;
@@ -14,6 +14,6 @@
     margin-bottom: 10px;
 }
 
-.subtitleStyle {
+.quickfact__subtitle {
     font-size: 18px;
 }

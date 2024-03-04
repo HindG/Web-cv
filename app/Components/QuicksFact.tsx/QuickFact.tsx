@@ -7,9 +7,9 @@ const league_spartan = League_Spartan({
 
 export default function QuickFact({ title, subtitle }: { title: string, subtitle: string }) {
     return (
-        <div className="containerStyle">
-            <h4 className={`${league_spartan.className} titleStyle`}>{title}</h4>
-            <p className="subtitleStyle">{subtitle}</p>
+        <div className="quickfact__container">
+            <h4 className={`${league_spartan.className} quickfact__title`}>{title}</h4>
+            <p className="quickfact__subtitle">{subtitle}</p>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.containerStyle {
+.background__container {
     background-color: #422D73;
     height: 826px;
     display: flex;
@@ -6,16 +6,16 @@
     justify-content: center;
 }
 
-.leftSideStyle {
+.background__leftside {
     width: 50%;
 }
 
-.titleContainerStyle {
+.background__titlecontainer {
     width: 280px;
     margin: auto;
 }
 
-.factsContainer {
+.background__factscontainer {
     margin: auto;
     width: 50%;
 }

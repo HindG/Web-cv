@@ -1,4 +1,4 @@
-.containerStyle {
+.homepage__container {
     background-color: #23295A;
     height: 826px;
     display: flex;
@@ -6,19 +6,19 @@
     justify-content: center
 }
 
-.nameContainerStyle {
+.homepage__namecontainer {
     width: 280px;
     text-align: center;
     margin: auto;
 }
 
-.textStyle {
+.homepage__text {
     font-weight: 600;
     color: #ffffff;
     font-size: 22px;
 }
 
-.imgStyle {
+.homepage__img {
     width: 400px;
     height: 400px;
     margin: auto;

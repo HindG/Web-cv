@@ -12,7 +12,7 @@ export default function Title({ title, color }: { title?: string, color?: string
                 {title}
             </h2>
             :
-            <h1 className={`${league_spartan.className} nameStyle`}>
+            <h1 className={`${league_spartan.className} title__name`}>
                 Hind Guessous
             </h1>
     )

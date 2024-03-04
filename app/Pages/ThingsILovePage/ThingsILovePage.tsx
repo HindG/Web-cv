@@ -3,7 +3,7 @@ import './ThingsILovePage.css'
 
 export default function ThingsILovePage() {
     return (
-        <section className="containerStyle">
+        <section className="thingsilove__container">
             <Title title="Things I Love" color="#ffffff" />
         </section>
     )
