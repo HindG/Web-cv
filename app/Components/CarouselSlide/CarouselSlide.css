@@ -1,0 +1,10 @@
+.carouselslide__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carouselslide__img {
+    width: 75%;
+    height: auto;
+}

@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "_id": 0,
+            "name": "Iflow for CMA CGM",
+            "short_name": "cma",
+            "desc": "Website to manage cargo ships trajectories - React.js",
+            "img_alt": "CMA CGM project",
+            "project_year": 2023
+        },
+        {
+            "_id": 1,
+            "name": "Festival Recall for La 3ème heure",
+            "short_name": "festival_recall",
+            "desc": "Genre cinema festival - Wordpress",
+            "img_alt": "Festival Recall project",
+            "project_year": 2023
+        },
+        {
+            "_id": 2,
+            "name": "Laura Beauté Paris",
+            "short_name": "laura_beaute",
+            "desc": "French hair cosmetics brand ecommerce website - Prestashop",
+            "img_alt": "Laura Beauté project",
+            "project_year": 2023
+        },
+        {
+            "_id": 3,
+            "name": "Sensia",
+            "short_name": "sensia",
+            "desc": "AI-based technology that analyzes products - React.js",
+            "img_alt": "Sensia project",
+            "project_year": 2022
+        },
+        {
+            "_id": 4,
+            "name": "SOS Punaises de lit",
+            "short_name": "app",
+            "desc": "Application to report cases of bedbugs - React Native",
+            "img_alt": "SOS Punaises de lit project",
+            "project_year": 2023
+        }
+    ]
+}
