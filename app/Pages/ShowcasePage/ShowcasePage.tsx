@@ -6,9 +6,7 @@ export default function ShowcasePage() {
     return (
         <section className="showcase__container">
             <Title title="Here's a showcase of my work!" color="#ffffff" />
-            <div className="showcase__carouselcontainer">
-                <WorkCarousel />
-            </div>
+            <WorkCarousel />
         </section>
     )
 }

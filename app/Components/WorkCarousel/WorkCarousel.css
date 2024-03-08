@@ -1,0 +1,37 @@
+.workcarousel__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 50px;
+}
+
+.workcarousel__datacontainer {
+    color: #ffffff;
+    padding: 30px;
+    line-height: 38px;
+}
+
+.workcarousel__img {
+    width: 65%;
+    height: auto;
+}
+
+.workcarousel__projectname {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.workcarousel__projectdesc {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.workcarousel__projecttechno {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.workcarousel__projectyear {
+    font-size: 18px;
+}
