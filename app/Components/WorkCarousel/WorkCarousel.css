@@ -4,6 +4,7 @@
     align-items: center;
     width: 85%;
     margin-top: 50px;
+    position: relative;
 }
 
 .workcarousel__datacontainer {
@@ -34,4 +35,13 @@
 
 .workcarousel__projectyear {
     font-size: 18px;
+}
+
+.workcarousel__projectposition {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 11px);
+    bottom: -35px;
+    color: #ffffff;
 }

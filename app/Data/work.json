@@ -7,6 +7,7 @@
             "desc": "Website to manage cargo ships trajectories",
             "techno": "React.js",
             "img_alt": "CMA CGM project",
+            "img_src": "./cma.png",
             "project_year": 2023
         },
         {
@@ -16,6 +17,7 @@
             "desc": "Genre cinema festival",
             "techno": "Wordpress",
             "img_alt": "Festival Recall project",
+            "img_src": "/festival_recall.png",
             "project_year": 2023
         },
         {
@@ -25,6 +27,7 @@
             "desc": "French hair cosmetics brand ecommerce website",
             "techno": "Prestashop",
             "img_alt": "Laura Beauté project",
+            "img_src": "laura_beaute.png",
             "project_year": 2023
         },
         {
@@ -34,6 +37,7 @@
             "desc": "AI-based technology that analyzes products",
             "techno": "React.js",
             "img_alt": "Sensia project",
+            "img_src": "sensia.png",
             "project_year": 2022
         },
         {
@@ -43,6 +47,7 @@
             "desc": "Application to report cases of bedbugs",
             "techno": "React Native",
             "img_alt": "SOS Punaises de lit project",
+            "img_src": "app.png",
             "project_year": 2023
         }
     ]
