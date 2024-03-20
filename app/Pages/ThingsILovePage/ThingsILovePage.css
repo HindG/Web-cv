@@ -4,4 +4,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.thingsilove__imgcontainer {
+    display: flex;
+    margin-top: 50px;
+    height: 75%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.thingsilove__text {
+    color: #ffffff;
+    width: 410px;
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+    font-size: 22px;
+    text-align: right;
+}
+
+.thingsilove__img {
+    width: 400px;
+    height: 400px;
+}
+
+.thingsilove__imgbeach {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.thingsilove__imgroller {
+    margin-bottom: 100px;
+    margin-right: 50px;
 }
