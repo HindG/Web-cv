@@ -3,5 +3,32 @@
     height: 826px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.contact__insidecontainer {
+    width: 40%;
+    padding: 50px;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: #424242;
+}
+
+.contact__insidecontainerleft {
+    text-align: center;
+}
+
+.contact__categoryname {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact__categorycontent {
+    margin-bottom: 25px;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    cursor: pointer;
 }
