@@ -14,10 +14,6 @@ export default function Home() {
   return (
     <main className={open_sans.className}>
       <HomePage />
-      <BackgroundPage />
-      <ShowcasePage />
-      <ThingsILovePage />
-      <ContactPage />
     </main>
   );
 }
