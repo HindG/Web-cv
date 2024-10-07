@@ -1,10 +1,8 @@
 import { Open_Sans } from 'next/font/google'
 import './Styles/reset-css.css'
-import HomePage from './Pages/HomePage/HomePage'
-import BackgroundPage from "./Pages/BackgroundPage/BackgroundPage"
-import ShowcasePage from './Pages/ShowcasePage/ShowcasePage'
-import ThingsILovePage from './Pages/ThingsILovePage/ThingsILovePage'
-import ContactPage from './Pages/ContactPage/ContactPage'
+import './HomePage.css'
+import Title from './Components/Title/Title'
+import portrait from './portrait.png'
 
 const open_sans = Open_Sans({
   subsets: ['latin']
@@ -13,7 +11,14 @@ const open_sans = Open_Sans({
 export default function Home() {
   return (
     <main className={open_sans.className}>
-      <HomePage />
+      <section className="homepage__container">
+        <div className="homepage__namecontainer">
+          <span className="homepage__text">Hi everyone, my name is</span>
+          <Title />
+          <span className="homepage__text">I'm a Front-end web developer</span>
+        </div>
+        <img src={portrait.src} alt="Portrait" className="homepage__img" />
+      </section>
     </main>
   );
 }
